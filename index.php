@@ -1,1 +1,1 @@
-<?php header( 'Location: /home/abc/Desktop/AngularFrontEnd/bootStrap-portfolio/index.html' ) ;  ?>
+<?php header( 'Location: /index.html' ) ;  ?>
