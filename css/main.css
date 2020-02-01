@@ -8,7 +8,7 @@ ul.nav a{
     color: black;
     text-decoration: none;
     border-bottom: 1px solid transparent;
-    transition: all linear 0.5s; 
+    transition: all ease-in 0.25s; 
 }
     ul.nav a:hover{
         color: #53bced;
@@ -29,15 +29,85 @@ ul.nav a{
      outline: none;
 
 }
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ /* No media query since this is the default in Bootstrap */
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .aboutTitle{
+        font-size: 45px;
+        }
+     .aboutSubtitle{
+            font-size: 30px;
+            
+        }
+        .sec_title{
+            font-size: 30px;
+        }
+}
+
+@media (min-width: 768px) { 
+    .aboutTitle{
+        font-size: 55px;
+        }
+  .aboutSubtitle{
+            font-size: 30px;
+         }
+         .sec_title{
+            font-size: 30px;
+        }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .aboutTitle{
+        font-size: 70px;
+        }
+     .aboutSubtitle{
+            font-size: 30px;
+        }
+        .sec_title{
+            font-size: 40px;
+        }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .aboutTitle{
+        font-size: 70px;
+        }
+     .aboutSubtitle{
+            font-size: 30px;
+            }
+
+        .sec_title{
+            font-size: 40px;
+        }
+ }
+
+.form-control{
+    border-width: 1px;
+    outline: none;
+    /* box-shadow: 1px 5px 0px lightgrey; */
+    box-shadow: 0px 3px 4px 0px rgba(2, 11, 24, 0.06);
+}
+.form-control:focus{
+    border-width: 1px;
+    outline: none;
+    /* box-shadow: 1px 5px 0px lightgrey; */
+    box-shadow: 0px 10px 8px 0px rgba(3, 12, 29, 0.06);
+}
+
 .sec_title{
     width: fit-content;
     position: relative;
-    font-size: 5.5vh;
     text-transform: capitalize;
-    font-weight: 700;
-    font-family: 'Poppins';
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
     color: #32333c;
     padding-bottom: 5px;
     margin: auto;
     border-bottom: 2px solid #53bced;
 }
+
